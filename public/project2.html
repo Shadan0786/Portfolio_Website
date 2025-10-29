@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Shadan Ali</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+
+<body>
+    <!-- //navbar  -->
+    <nav class="navbar">
+        <div class="logo">Shadan Ali</div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- project -->
+    <section class="project" id="project">
+        <div class="project-container">
+            <div class="project-image">
+                <img src="images/project2.png" alt="project1">
+            </div>
+
+            <div class="project-content">
+                <h2>NEWS WEBSITE</h2>
+                <h3>Frontend Developer | Problem Solver</h3>
+                <p>Built a full-stack News Website with real-time updates, responsive design, and dynamic filtering.
+                        Integrated NewsAPI, Node.js, and MongoDB to deliver a seamless, user-friendly news experience.
+                </p>
+                <p>
+                    My goal is to create clean, efficient, and user-friendly designs that blend creativity with
+                    functionality.
+                </p>
+                <a href="index.html" class="btn">Home</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>© 2025 Shadan Ali. All rights reserved.</p>
+        <p>Designed & Built with ❤️ using HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
