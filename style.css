@@ -253,6 +253,8 @@ body {
     border-radius: 6px;
     text-decoration: none;
     transition: 0.3s;
+    border: none;
+    font-weight: bold;
 }
 
 .project-info .btn:hover {
@@ -326,6 +328,23 @@ body {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
+.submitbtn {
+    background: #00b4d8;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+    font-weight: bold;
+}
+
+.project-info .btn:hover {
+    background: #0096c7;
+}
+
+
 
 .footer {
     background: #111;
